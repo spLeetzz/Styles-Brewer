@@ -1,6 +1,6 @@
 # Styles Brewer
 
-**_Minimalist Tailwind clone._**<br><br>
+_Minimalist Tailwind clone._<br><br>
 _Write Tailwind classes, Add one script, CSS loaded._
 
 ## Installation
