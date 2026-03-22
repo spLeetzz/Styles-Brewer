@@ -1,13 +1,17 @@
 # Styles Brewer
 
-Minimalist Tailwind clone. Write Tailwind classes, add one script link, CSS loaded.
+**_Minimalist Tailwind clone._**<br><br>
+_Write Tailwind classes, Add one script, CSS loaded._
 
 ## Installation
 
 Add this to your HTML `<head>`:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<script
+  src="https://cdn.jsdelivr.net/gh/spLeetzz/Styles-Brewer@master/src/main.min.js"
+  type="module"
+></script>
 ```
 
 ## How it works
