@@ -133,22 +133,6 @@ function textHandler(prefix, value) {
   return colorClass(prefix, value) || "";
 }
 
-function handleGrowShrink(prefix, value, keyword, prop) {
-  if (!value.startsWith(keyword)) return null;
-
-  const rest = value.slice(keyword.length);
-
-  if (rest === "") return rule(prefix, value, prop, 1);
-
-  if (rest.startsWith("-")) {
-    const n = parseNonNegative(rest.slice(1));
-    if (n !== null) return rule(prefix, value, prop, n);
-    return "";
-  }
-
-  return null;
-}
-
 function flexHandler(prefix, value) {
   if (!value) return `.${prefix} { display: ${prefix}; }\n`;
 

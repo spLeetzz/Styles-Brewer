@@ -14,6 +14,8 @@ Add this to your HTML `<head>`:
 ></script>
 ```
 
+## [Demo Video](https://youtu.be/Hrjw82ickEw)
+
 ## How it works
 
 1. Loads Tailwind preflight CSS.
